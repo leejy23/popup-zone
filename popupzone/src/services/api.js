@@ -26,7 +26,7 @@ export const getPopupDetails = async (id) => {
 };
 
 export const createPopup = async (popupData) => {
-  // 백엛드 API와 일치하는 형식으로 데이터 변환
+  // 백앤드 API와 일치하는 형식으로 데이터 변환
   const formattedData = {
     title: popupData.popupName,
     brand_name: popupData.brandName,

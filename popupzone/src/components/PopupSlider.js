@@ -21,7 +21,7 @@ const PopupSlider = ({ popups }) => {
         {popups.map((popup) => (
           <div key={popup.id} className="slider-item">
             <img
-              src={popup.image || "/public/images/default-popup.jpg"}
+              src={popup.image || "/images/default-popup.jpg"}
               alt={popup.title}
             />
             <div className="slider-info">
